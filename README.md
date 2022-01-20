@@ -11,4 +11,34 @@ Para utiliza-la é necessário que o utilizador realize o login pelo método de 
 
 É possível se registrar com novos logins.
 
-Api documentada via Swagger.
+
+## Rodar Aplicação
+
+Clone o projeto
+
+```bash
+  git clone https://github.com/2dsant/LeagueOfLegends_API.git
+```
+
+Abra o diretório
+
+```bash
+  cd LeagueOfLegends_API
+```
+
+Configurar o arquivo appsetting.json de acordo com as configurações do seu banco mysql.
+No caso a minha configuração é essa:
+```bash
+    "DefaultConnection": "server=localhost;port=3307;database=bd_leagueoflegends;uid=root;password=root"
+```
+
+Startar a aplicação
+```bash
+  dotnet watch run
+```
+
+
+
+Api documentada via Swagger assim que se inicia.
+
+
